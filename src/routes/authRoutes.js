@@ -15,8 +15,6 @@ console.log("JWT Secret Key:", jwtSecretKey);
 
 router.get("/data", async (req, res) => {
   try {
-    // Fetch some data from your database
-    // For example, fetching all users
     const users = await User.find({});
     res.status(200).json(users);
   } catch (error) {
