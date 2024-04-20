@@ -15,13 +15,13 @@ Login - POST => https://arba-dev-backend-1.onrender.com/auth/login
 Update profile - PATCH => https://arba-dev-backend-1.onrender.com/auth/update/:id
 
 # Product routes ;
-Get - GET => https://arba-dev-backend-1.onrender.com/api/products
-Create - POST => https://arba-dev-backend-1.onrender.com/api/products
-Update - PATCH => https://arba-dev-backend-1.onrender.com/api/products/:id
-Delete - DELETE => https://arba-dev-backend-1.onrender.com/api/products/:id
+GET => https://arba-dev-backend-1.onrender.com/api/products
+POST => https://arba-dev-backend-1.onrender.com/api/products
+PATCH => https://arba-dev-backend-1.onrender.com/api/products/:id
+DELETE => https://arba-dev-backend-1.onrender.com/api/products/:id
 
 # Categories routes ;
-Get - GET => https://arba-dev-backend-1.onrender.com/api/categories
-Create -  POST => https://arba-dev-backend-1.onrender.com/api/categories
-Update -  PATCH => https://arba-dev-backend-1.onrender.com/api/categories/:id
-Delete -  DELETE => https://arba-dev-backend-1.onrender.com/api/categories/:id
+GET => https://arba-dev-backend-1.onrender.com/api/categories
+POST => https://arba-dev-backend-1.onrender.com/api/categories
+PATCH => https://arba-dev-backend-1.onrender.com/api/categories/:id
+DELETE => https://arba-dev-backend-1.onrender.com/api/categories/:id
