@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon index.js", // for development
-  "start": "node index.js"    // for production
-}
-
+    "start": "nodemon index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
